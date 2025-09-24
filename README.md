@@ -181,7 +181,31 @@ docker-compose up --build
 Main application: http://localhost:3000
 Student API: http://localhost:3000/api/student
 ```
+#### Stop the Application
+```
+docker-compose down
 ### Expected Student API Response:
+```
+
+### How to Build and Run Docker Container (Alternative Method)
+#### How to Build the Image
+```
+docker build -t uav-analysis-app .
+```
+#### How to Run the Container
+```
+docker run -p 3000:3000 uav-analysis-app
+```
+### Verification
+```
+# Check if container is running
+docker ps
+
+# Test student API
+curl http://localhost:3000/api/student
+```
+
+### Expected /api/student Output
 ```
 {
 "name": "Disen Jia",
