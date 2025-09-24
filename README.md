@@ -184,7 +184,6 @@ Student API: http://localhost:3000/api/student
 #### Stop the Application
 ```
 docker-compose down
-### Expected Student API Response:
 ```
 
 ### How to Build and Run Docker Container (Alternative Method)
