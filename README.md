@@ -168,8 +168,8 @@ Docker Compose installed (comes with Docker Desktop)
 ### Quick Start with Docker
 #### Clone the repository
 ```
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+https://github.com/JudsonJia/SIT725-Task-8.3HD-UAV-Flight-Data-Analysis-Platform---Dockerized-Version.git
+cd SIT725-Task-8.3HD-UAV-Flight-Data-Analysis-Platform---Dockerized-Version
 ```
 
 #### Start the application with Docker Compose
